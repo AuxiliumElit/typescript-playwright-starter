@@ -1,0 +1,22 @@
+{
+  "name": "javascript-playwright-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "exc-smoke": "npx playwright test  --grep \"@smoke\"",
+    "exc-regression": "npx playwright test  --grep \"@regression\"",
+    "exc-api-tests": "npx playwright test --project=api-tests",
+    "exc-ui-tests-chrome": "npx playwright test --project=ui-tests-chrome",
+    "exc-ui-tests-firefox": "npx playwright test --project=ui-tests-firefox",
+    "exc-ui-tests-chrome-suite-one": "npx playwright test ui-demo-test-suite-one.spec.ts --project=ui-tests-chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.8",
+    "dotenv": "^16.3.1"
+  }
+}

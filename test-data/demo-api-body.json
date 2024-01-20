@@ -1,0 +1,9 @@
+{
+  "data": {
+    "title": "shoes",
+    "price": 14.5,
+    "description": "Lorem Ipsum",
+    "image": "https://i.pravatar.cc",
+    "category": "electronic"
+  }
+}
